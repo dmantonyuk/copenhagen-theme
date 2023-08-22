@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading_font;
+  font-family: inherit;
   margin-top: 0;
 }
 
@@ -38,7 +38,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  font-weight: $font-weight-semibold;
+  font-weight: inherit;
 }
 
 h4 {
@@ -46,11 +46,11 @@ h4 {
 }
 
 a {
-  color: $link_color;
+  color: #1f73b7;
   text-decoration: none;
 
   &:visited {
-    color: $visited_link_color;
+    color: #1f73b7;
   }
 
   &:hover,
@@ -63,13 +63,12 @@ a {
 input,
 textarea {
   color: #000;
-  font-size: $input-font-size;
+  font-size:100%;
 }
 
 input {
   max-width: 100%;
   box-sizing: border-box;
-  transition: $input-transition;
 
   &:not([type="checkbox"]) {
     outline: none;
