@@ -948,7 +948,6 @@ ul {
   border-top: 1px solid #ddd;
   margin-top: 60px;
   padding: 30px 0;
-	background: #292F36;
 }
 .footer a {
   color: lighten($text_color, 20%);
@@ -1009,10 +1008,12 @@ ul {
 
 .search {
   border-color: #87929D;
-  border: none;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
   display: flex;
   position: relative;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: border 0.12s ease-in-out;
 }
 .search:focus-within {
   border-color: $brand_color;
@@ -1020,6 +1021,7 @@ ul {
 .search input[type=search],
 .search .clear-button {
   background-color: #fff;
+  border-radius: 30px;
   border: none;
 }
 .search-full input[type=search], .search-full .clear-button {
@@ -1033,7 +1035,6 @@ ul {
   flex: 1 1 auto;
   height: 40px;
   width: 100%;
-	border-radius: 3px;
 }
 .search input[type=search]:focus {
   color: #555;
@@ -1067,11 +1068,8 @@ ul {
 }
 
 [dir=ltr] .search input[type=search] {
-  padding-left: 18px;
+  padding-left: 40px;
   padding-right: 20px;
-	color: rgba(33, 36, 44, 0.64);
-	font-family: Gotham;
-	font-size: 18px;
 }
 [dir=ltr] .search-has-value input[type=search] {
   border-bottom-right-radius: 0;
@@ -1112,16 +1110,16 @@ ul {
 }
 
 .search-icon {
-    bottom: -7%;
-    transform: translateY(-50%);
-    position: absolute;
-    right: 5px;
-    z-index: 1;
-    width: 32px;
-    height: 28px;
-    color: #777;
-    pointer-events: none;
-}
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  left: 15px;
+  z-index: 1;
+  width: 18px;
+  height: 18px;
+  color: #777;
+  pointer-events: none;
 }
 [dir=rtl] .search-icon {
   left: auto;
@@ -1133,7 +1131,7 @@ ul {
   background-image: url($homepage_background_image);
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 300px;
   padding: 0 20px;
   text-align: center;
   width: 100%;
@@ -1144,14 +1142,6 @@ ul {
   transform: translateY(-50%);
   max-width: 610px;
   margin: 0 auto;
-}
-.hero-inner__title {
-  font-family: Barlow Semi Condensed;
-	font-size: 46px;
-	font-style: normal;
-	font-weight: bold;
-	line-height: 58px;
-	font-feature-settings: 'clig' off, 'liga' off;
 }
 
 .page-header {
