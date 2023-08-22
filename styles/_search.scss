@@ -9,13 +9,11 @@ $padding-right: 20px;
 }
 
 .search {
-  border-color: $high-contrast-border-color;
-  border-radius: 30px;
-  border-style: solid;
-  border-width: 1px;
+  border-color: #87929D;
+  border: none;
   display: flex;
   position: relative;
-  transition: $input-transition;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
   &:focus-within {
     border-color: $brand_color;
@@ -24,7 +22,6 @@ $padding-right: 20px;
   input[type="search"], 
   .clear-button {
     background-color: #fff;
-    border-radius: 30px;
     border: none;
   }
 
@@ -41,6 +38,7 @@ $padding-right: 20px;
     flex: 1 1 auto;
     height: 40px;
     width: 100%;
+    border-radius: 3px;
 
     &:focus {
       color: $field-text-focus-color;
@@ -92,6 +90,9 @@ $padding-right: 20px;
   input[type="search"] {
     padding-left: $padding-left;
     padding-right: $padding-right;
+    color: rgba(33, 36, 44, 0.64);
+	  font-family: Gotham;
+	  font-size: 18px;
   }
 
   &-has-value input[type="search"] {
@@ -148,12 +149,14 @@ $padding-right: 20px;
 
 .search-icon {
   @include vertical-align;
+  bottom: -7%;
+  transform: translateY(-50%);
   position: absolute;
-  left: 15px;
+  right: 5px;
   z-index: 1;
-  width: 18px;
-  height: 18px;
-  color: $icon-color;
+  width: 32px;
+  height: 28px;
+  color: #777;
   pointer-events: none;
 
   [dir="rtl"] & {
