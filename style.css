@@ -1111,9 +1111,6 @@ ul {
 }
 
 .search-icon {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
   bottom: -7%;
   transform: translateY(-50%);
   position: absolute;
@@ -1131,7 +1128,7 @@ ul {
 
 /***** Hero component *****/
 .hero {
-  background-image: url(//theme.zdassets.com/theme_assets/516754/09f7d6c….jpg);
+  background-image: url(url(/settings/homepage_background_image.jpg));
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -1378,7 +1375,7 @@ ul {
 .community-image {
   min-height: 300px;
   margin-top: 32px;
-  background-image: url(//theme.zdassets.com/theme_assets/516754/f809f5c….jpg);
+  background-image: url(url(/settings/community_image.jpg));
   background-position: center;
   background-repeat: no-repeat;
   max-width: 100%;
@@ -2339,7 +2336,7 @@ ul {
 
 /***** Community *****/
 .community-hero {
-  background-image: url(url(//theme.zdassets.com/theme_assets/516754/e8671b2….jpg));
+  background-image: url(/settings/community_background_image.jpg);
   margin-bottom: 10px;
 }
 .community-footer {
