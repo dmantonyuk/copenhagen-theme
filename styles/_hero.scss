@@ -3,7 +3,7 @@
   background-image: url($homepage_background_image);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 500px;
   padding: 0 20px;
   text-align: center;
   width: 100%;
@@ -12,5 +12,13 @@
     @include vertical-align;
     max-width: 610px;
     margin: 0 auto;
+    &__title {
+      font-family: Barlow Semi Condensed;
+      font-size: 46px;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 58px;
+      font-feature-settings: 'clig' off, 'liga' off;
+    }
   }
 }
