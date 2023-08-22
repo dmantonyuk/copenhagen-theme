@@ -148,7 +148,6 @@ $padding-right: 20px;
 }
 
 .search-icon {
-  @include vertical-align;
   bottom: -7%;
   transform: translateY(-50%);
   position: absolute;
