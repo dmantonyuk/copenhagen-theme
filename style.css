@@ -1128,7 +1128,7 @@ ul {
 
 /***** Hero component *****/
 .hero {
-  background-image: url(url(/settings/homepage_background_image.jpg));
+  background-image: url("/settings/homepage_background_image.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -1375,7 +1375,7 @@ ul {
 .community-image {
   min-height: 300px;
   margin-top: 32px;
-  background-image: url(url(/settings/community_image.jpg));
+  background-image: url(url("/settings/community_image.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   max-width: 100%;
@@ -2336,7 +2336,7 @@ ul {
 
 /***** Community *****/
 .community-hero {
-  background-image: url(/settings/community_background_image.jpg);
+  background-image: url("/settings/community_background_image.jpg");
   margin-bottom: 10px;
 }
 .community-footer {
