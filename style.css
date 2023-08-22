@@ -1375,7 +1375,7 @@ ul {
 .community-image {
   min-height: 300px;
   margin-top: 32px;
-  background-image: url(url("/settings/community_image.jpg"));
+  background-image: url(url("//theme.zdassets.com/theme_assets/516754/f809f5c199aae24d576f120908f1cc705a8a12f1.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   max-width: 100%;
@@ -2336,7 +2336,7 @@ ul {
 
 /***** Community *****/
 .community-hero {
-  background-image: url("/settings/community_background_image.jpg");
+  background-image: url("//theme.zdassets.com/theme_assets/516754/e8671b2629a56a2a58bdce403940f55557d1dc6b.jpg");
   margin-bottom: 10px;
 }
 .community-footer {
